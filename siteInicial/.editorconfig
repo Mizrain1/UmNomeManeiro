@@ -1,4 +1,6 @@
 # Editor configuration, see https://editorconfig.org
+# O EditorConfig ajuda a definir um estilo de código entre os diversos editores de texto, basicamente, devemos criar um arquivo na raiz (costuma-se ser na raiz, não que seja obrigatório) de um determinado projeto, onde, dentro desse arquivo irá conter os estilos de códigos de nossos arquivos, dessa maneira os editores devem respeitar o que foi definido no arquivo.
+
 root = true
 
 [*]
