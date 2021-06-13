@@ -1,0 +1,24 @@
+.containerApp app-header {
+    grid-area: header;   
+}
+.containerApp app-nav {
+    grid-area: nav;
+}
+.containerApp app-footer {
+    grid-area: footer;              
+}
+.containerApp app-sidebarRight{
+    grid-area: sidebar;
+}
+.containerApp app-sidebarLeft{
+    grid-area: sidebar2;
+}
+.containerApp {
+    display: grid;
+    grid-template-rows: 60px 1fr 60px;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-areas: 
+        'header header header'
+        'sidebar nav sidebar2'
+        'footer footer footer';
+}
