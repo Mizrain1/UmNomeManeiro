@@ -11,3 +11,7 @@
     color: #9E9E9E;
     text-decoration: none;
 }
+.navDivMae a:hover{
+    color: RGBA(179,229,252,1);
+    transition: color .4s;
+}

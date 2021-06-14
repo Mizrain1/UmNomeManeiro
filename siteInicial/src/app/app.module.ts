@@ -17,6 +17,8 @@ import { ConteudoComponent } from './components/views/template/conteudo/conteudo
 import { Aba1Component } from './components/views/pages/aba1/aba1.component';
 import { Aba2Component } from './components/views/pages/aba2/aba2.component';
 import { Aba3Component } from './components/views/pages/aba3/aba3.component';
+import { AbaContatoComponent } from './components/views/pages/aba-contato/aba-contato.component';
+import { AbaSobreComponent } from './components/views/pages/aba-sobre/aba-sobre.component';
 
 @NgModule({
   // Os componentes são declarados aqui
@@ -32,6 +34,8 @@ import { Aba3Component } from './components/views/pages/aba3/aba3.component';
     Aba1Component,
     Aba2Component,
     Aba3Component,
+    AbaContatoComponent,
+    AbaSobreComponent
   ],
 
   // Os módulos são importados aqui
