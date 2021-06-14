@@ -1,8 +1,11 @@
 .containerApp app-header {
     grid-area: header;   
 }
-.containerApp app-nav {
-    grid-area: nav;
+.containerApp app-conteudo {
+    grid-area: conteudo;
+    margin: 0 1em 0 1em;
+    background-color: #fff;
+    padding: 0.7em;
 }
 .containerApp app-footer {
     grid-area: footer;              
@@ -15,10 +18,11 @@
 }
 .containerApp {
     display: grid;
-    grid-template-rows: 60px 1fr 60px;
-    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 150px 1fr;
     grid-template-areas: 
-        'header header header'
-        'sidebar nav sidebar2'
-        'footer footer footer';
+        'header header'
+        'sidebar sidebar'
+        'sidebar2 conteudo'
+        'footer footer';
 }

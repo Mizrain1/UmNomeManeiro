@@ -1,4 +1,13 @@
-.nav{
-    background-color: blueviolet;
-    color: #fff;
+.navDivMae{
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 20px;
+}
+
+.navDivMae a{
+    color: #9E9E9E;
+    text-decoration: none;
 }

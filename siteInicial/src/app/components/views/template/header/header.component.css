@@ -1,4 +1,16 @@
-[containerDoHeader]{
-    background-color: coral;
-    color: #fff;
+.divMaeHeader {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 4em;
+    padding: 0 15px 0 10px;
+    margin: 0px 0px 1em 0px;
+    position: fixed;
+    width: 100%;
+}
+
+.divMaeHeader a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #212121;
 }
