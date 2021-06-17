@@ -56,3 +56,13 @@
 .divSocialIcon .bi-twitter {
     margin-right: 1em;
 }
+
+.regraFooter a {
+    text-decoration: none;
+    color: RGBA(224,224,224,0.68);
+}
+
+.regraFooter a:hover {
+    color: RGBA(179,229,252,0.78);
+    transition: color .4s;
+}

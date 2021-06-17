@@ -19,6 +19,7 @@ import { Aba2Component } from './components/views/pages/aba2/aba2.component';
 import { Aba3Component } from './components/views/pages/aba3/aba3.component';
 import { AbaContatoComponent } from './components/views/pages/aba-contato/aba-contato.component';
 import { AbaSobreComponent } from './components/views/pages/aba-sobre/aba-sobre.component';
+import { AbaRegrasComponent } from './components/views/pages/aba-regras/aba-regras.component';
 
 @NgModule({
   // Os componentes são declarados aqui
@@ -35,7 +36,8 @@ import { AbaSobreComponent } from './components/views/pages/aba-sobre/aba-sobre.
     Aba2Component,
     Aba3Component,
     AbaContatoComponent,
-    AbaSobreComponent
+    AbaSobreComponent,
+    AbaRegrasComponent
   ],
 
   // Os módulos são importados aqui
