@@ -1,0 +1,17 @@
+# Este arquivo é usado pelo sistema de construção para ajustar a saída CSS e JS para oferecer suporte aos navegadores especificados abaixo.
+# Para obter informações adicionais sobre as opções de formato e regra, consulte:
+# https://github.com/browserslist/browserslist#queries
+
+# Para a lista completa de navegadores suportados pela estrutura Angular, consulte:
+# https://angular.io/guide/browser-support
+
+# Você pode ver quais navegadores foram selecionados por suas consultas executando:
+# npx browserslist
+
+last 1 Chrome version
+last 1 Firefox version
+last 2 Edge major versions
+last 2 Safari major versions
+last 2 iOS major versions
+Firefox ESR
+not IE 11 # O Angular oferece suporte ao IE 11 apenas como opção. Para aceitar, remova o prefixo 'not' desta linha.

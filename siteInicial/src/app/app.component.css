@@ -1,0 +1,28 @@
+.containerApp app-header {
+    grid-area: header;   
+}
+.containerApp app-conteudo {
+    grid-area: conteudo;
+    margin: 0 1em 5em 1em;
+    background-color: #fff;
+    padding: 0.7em;
+}
+.containerApp app-footer {
+    grid-area: footer;              
+}
+.containerApp app-sidebarRight{
+    grid-area: sidebar;
+}
+.containerApp app-sidebarLeft{
+    grid-area: sidebar2;
+}
+.containerApp {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas: 
+        'header header'
+        'sidebar sidebar'
+        'sidebar2 conteudo'
+        'footer footer';
+}

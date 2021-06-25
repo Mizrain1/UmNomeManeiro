@@ -1,0 +1,68 @@
+.divMaeFooter {
+    background-color: #424242;
+    color: RGBA(224,224,224,0.68); 
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em 0 0.5em;
+}
+
+.infoFooter, .socialFooter {
+    display: flex;
+    align-items: center;
+}
+
+.divCopy{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    font-size: 10px;
+}
+
+.logoFooter, .sobreFooter, .contatoFooter {
+    margin-right: 15px;
+}
+
+.sobreFooter a, .contatoFooter a {
+    text-decoration: none;
+    color: RGBA(224,224,224,0.68);
+}
+.sobreFooter a:hover, .contatoFooter a:hover {   
+    color: RGBA(179,229,252,0.78);
+    transition: color .4s;
+}
+
+.divSocialIcon {
+    margin-right: 2em;
+    font-size: 1.1em;
+}
+
+.divSocialIcon a {
+    color: RGBA(224,224,224,0.68);
+}
+.divSocialIcon a:hover {
+    color: RGBA(179,229,252,0.78);
+    transition: color .4s;
+}
+
+.divSocialIcon .bi-instagram {
+    margin-right: 1em;
+}
+
+.divSocialIcon .bi-twitter {
+    margin-right: 1em;
+}
+
+.regraFooter a {
+    text-decoration: none;
+    color: RGBA(224,224,224,0.68);
+}
+
+.regraFooter a:hover {
+    color: RGBA(179,229,252,0.78);
+    transition: color .4s;
+}
