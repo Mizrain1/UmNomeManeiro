@@ -6,6 +6,9 @@
     position: fixed;
     width: 100%;
 }
+.divMaeHeader nav {
+    padding-top: .9rem;
+}
 
 .divLinhaHeader {
     display: flex;
@@ -18,13 +21,13 @@
 
 .divLogoHeader {margin-right: 7em;}
 .divLogoHeader a {
-    font-size: 25px;
+    font-size: 45px;
     text-decoration: none;
     color: #212121;
 }
 
 .linkNavBar {
-    font-size: 19px;
+    font-size: 29px;
     color: #9E9E9E;
     text-decoration: none;
 }
