@@ -1,16 +1,38 @@
 .divMaeHeader {
-    background-color: #fff;
-    display: flex;
+    background-color: #fff; 
     align-items: center;
-    height: 4em;
-    padding: 0 15px 0 10px;
+    padding: 5px;
     margin: 0px 0px 1em 0px;
     position: fixed;
     width: 100%;
 }
 
-.divMaeHeader a{
+.divLinhaHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.divLogoHeader {margin-right: 7em;}
+.divLogoHeader a {
     font-size: 25px;
     text-decoration: none;
     color: #212121;
+}
+
+.linkNavBar {
+    font-size: 19px;
+    color: #9E9E9E;
+    text-decoration: none;
+}
+.linkNavBar:hover {
+    color: RGBA(179,229,252,1);
+    transition: color .4s;
+}
+
+.liNav {
+    margin-right: 2em;
 }
