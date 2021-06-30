@@ -39,3 +39,12 @@
 .liNav {
     margin-right: 2em;
 }
+
+/* MEDIAS QUERY */
+@media (max-width: 992px)
+/* mobile maximo */ 
+{
+  .ulHeaderMenu li {
+    margin-top: 10px;
+   }
+}

@@ -26,3 +26,19 @@
         'sidebar2 conteudo'
         'footer footer';
 }
+
+/* MEDIAS QUERY */
+@media (max-width: 992px)
+/* mobile maximo */ 
+{
+    .containerApp {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-columns: 0px 1fr;
+        grid-template-areas: 
+            'header header'
+            'sidebar sidebar'
+            'sidebar2 conteudo'
+            'footer footer';
+    }
+}
