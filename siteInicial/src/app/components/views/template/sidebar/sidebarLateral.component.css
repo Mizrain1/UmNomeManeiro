@@ -5,7 +5,7 @@
     text-align: center;
     padding: 1em;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
-    background-color: #b3e5fc;
+    background-color: var(--color-padrao);
 }
 
 /* MEDIAS QUERY */

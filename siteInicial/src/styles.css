@@ -14,6 +14,11 @@ Azul e Branco = #b3e5fc (Padrão)
     src: url('assets/font/Roboto-Light.ttf') format('truetype');
 }
 
+:root {
+    --color-padrao: #b3e5fc;
+    --color-padrao-rgbaMenu: RGBA(179,229,252,1);
+}
+
 html, body { height: 100%; }
 body { 
     margin: 0; 
