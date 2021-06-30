@@ -1,0 +1,17 @@
+.divMaeSideBarL{
+    max-width: 260px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    background-color: #b3e5fc;
+}
+
+/* MEDIAS QUERY */
+@media (min-width: 1688px) {
+/* style de tela grande */
+    .divMaeSideBarL {
+	width: 260px;
+    }
+}

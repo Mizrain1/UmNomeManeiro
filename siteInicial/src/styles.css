@@ -1,5 +1,10 @@
 /* Aqui são colocados o css que serão usadas de forma GLOBAL na aplicação */
 
+/* 
+- Cores do Site -
+Azul e Branco = #b3e5fc (Padrão)
+*/
+
 /* importando o bootstrap do node-module */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~bootstrap-icons/font/bootstrap-icons.css";

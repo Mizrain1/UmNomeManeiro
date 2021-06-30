@@ -1,0 +1,26 @@
+.divMaeSideBarTop {
+    width: auto;
+    height: auto;
+    max-height: 148px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 1em;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+    display: flex;
+    background-color: #b3e5fc;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* MEDIAS QUERY */
+@media (max-width: 992px)
+/* mobile maximo */ 
+{
+    .divMaeSideBarTop {
+        height: 130px;
+    }
+    .divMaeSideBarTop span {
+        font-size: 50px!important;
+    }
+}

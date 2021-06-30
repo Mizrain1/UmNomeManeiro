@@ -9,8 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './components/views/pages/home/home.component';
 import { HeaderComponent } from './components/views/template/header/header.component';
 import { FooterComponent } from './components/views/template/footer/footer.component';
-import { SidebarComponent } from './components/views/template/sidebar/sidebarR.component';
-import { Sidebar2Component } from './components/views/template/sidebar/sidebar2.component';
+import { SidebarTopComponent } from './components/views/template/sidebar/sidebarTop.component';
+import { SidebarLateralComponent } from './components/views/template/sidebar/sidebarLateral.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { ConteudoComponent } from './components/views/template/conteudo/conteudo.component';
 import { Aba1Component } from './components/views/pages/aba1/aba1.component';
@@ -27,8 +27,8 @@ import { AbaRegrasComponent } from './components/views/pages/aba-regras/aba-regr
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent,
-    Sidebar2Component,
+    SidebarTopComponent,
+    SidebarLateralComponent,
     ConteudoComponent,
     Aba1Component,
     Aba2Component,
