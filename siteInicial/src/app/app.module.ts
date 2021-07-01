@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 //Novos imports a partir daqui
 import { HomeComponent } from './components/views/pages/home/home.component';
 import { HeaderComponent } from './components/views/template/header/header.component';
