@@ -84,7 +84,7 @@ label::after{
 }
 
 input:checked + label {
-    background-color: var(--color-headings);
+    background-color: var(--colortoggle-menu);
 }
 
 input:checked + label::after {
