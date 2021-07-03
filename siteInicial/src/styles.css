@@ -22,9 +22,9 @@ Azul e Branco = #b3e5fc (Padrão)
     --colorfont-rgba: RGBA(179,229,252,1);
     --colorfont-conteudo: black;
     --color-logo: #212121;
+    --colortoggle-menu: black;
 
     --color-padrao: #b3e5fc;  
-    --colortoggle-menu: black;
 }
 
 html, body { height: 100%; }

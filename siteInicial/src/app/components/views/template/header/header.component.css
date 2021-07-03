@@ -40,19 +40,15 @@
     margin-right: 2em;
 }
 
-/* MEDIAS QUERY */
-@media (max-width: 992px)
-/* mobile maximo */ 
-{
-  .ulHeaderMenu li {
-    margin-top: 10px;
-   }
+.menuToggleDarkLightMode {
+    color:var(--colortoggle-menu);
 }
 
+.btnToggleMenu {
+    border-color: var(--color-font);
+}
 
-
-
-
+/* toggle menu dark light mode */
 
 input[type=checkbox]{
     height: 0;
@@ -84,7 +80,7 @@ label::after{
 }
 
 input:checked + label {
-    background-color: var(--colortoggle-menu);
+    background-color: black;
 }
 
 input:checked + label::after {
@@ -94,4 +90,13 @@ input:checked + label::after {
 
 label:active:after {
     width: 45px;
+}
+
+/* MEDIAS QUERY */
+@media (max-width: 992px)
+/* mobile maximo */ 
+{
+  .ulHeaderMenu li {
+    margin-top: 10px;
+   }
 }

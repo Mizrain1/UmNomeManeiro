@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
 
 //Novos imports a partir daqui
 import { HomeComponent } from './components/views/pages/home/home.component';
@@ -44,7 +45,8 @@ import { AbaRegrasComponent } from './components/views/pages/aba-regras/aba-regr
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatIconModule
   ],
   
   // Aqui são os services etc
