@@ -15,10 +15,15 @@ Azul e Branco = #b3e5fc (Padrão)
 }
 
 :root {
-    --bg: #F5F5F5;
-    
+    --bg-body: #F5F5F5;
+    --bg-hf: #fff; /*header,footer*/
+    --bg-conteudo: #fff;
+    --color-font: #9E9E9E;
+    --colorfont-rgba: RGBA(179,229,252,1);
+    --colorfont-conteudo: black;
+    --color-logo: #212121;
+
     --color-padrao: #b3e5fc;
-    --color-padrao-rgbaMenu: RGBA(179,229,252,1);
   
     --bg-panel: #EBEBEB;
     --color-headings: #0077FF;
@@ -27,7 +32,7 @@ Azul e Branco = #b3e5fc (Padrão)
 
 html, body { height: 100%; }
 body { 
-    background-color: var(--bg);
+    background-color: var(--bg-body);
     margin: 0; 
     padding: 0;
     font-family: 'Roboto', sans-serif;

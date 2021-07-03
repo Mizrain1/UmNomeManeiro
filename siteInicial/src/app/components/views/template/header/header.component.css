@@ -1,5 +1,5 @@
 .divMaeHeader {
-    background-color: #fff; 
+    background-color: var(--bg-hf); 
     align-items: center;
     padding: 5px;
     margin: 0px 0px 1em 0px;
@@ -23,16 +23,16 @@
 .divLogoHeader a {
     font-size: 45px;
     text-decoration: none;
-    color: #212121;
+    color: var(--color-logo);
 }
 
 .linkNavBar {
     font-size: 29px;
-    color: #9E9E9E;
+    color: var(--color-font);
     text-decoration: none;
 }
 .linkNavBar:hover {
-    color: var(--color-padrao-rgbaMenu);
+    color: var(--colorfont-rgba);
     transition: color .4s;
 }
 

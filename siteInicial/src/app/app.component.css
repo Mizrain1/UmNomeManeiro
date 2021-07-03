@@ -5,8 +5,9 @@ app-header {
 app-conteudo {
     grid-area: conteudo;
     margin: 0 1em 5em 1em;
-    background-color: #fff;
+    background-color: var(--bg-conteudo);
     padding: 0.7em;
+    color: var(--colorfont-conteudo);
 }
 
 app-footer {
